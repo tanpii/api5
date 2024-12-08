@@ -17,7 +17,7 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/v1")
-@Tag(name = "Цитаты из сериалов", description = "Методы для получения, добавления и удаления цитат")
+@Tag(name = "Цитаты из сериала кухня", description = "Методы для получения, добавления и удаления цитат")
 public class QuoteController {
     private final QuoteService quoteService;
 
